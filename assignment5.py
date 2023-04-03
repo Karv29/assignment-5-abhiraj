@@ -30,7 +30,7 @@ try:
 except:
     print ("An error occurred")
 
-# file compehnsion
+# list comprehension
 colors=["green","blue","pink","orange","white","black"]
 newlist=[x for x in colors if "r" in x]
 print(newlist)
